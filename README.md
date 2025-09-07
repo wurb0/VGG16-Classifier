@@ -9,11 +9,11 @@ Goal: Predict 1 of 10 fashion categories.
 
 Approach: Transfer learning with VGG16 pretrained on ImageNet.
 
-## 📊 Results
+## 📊 Results (6 epochs)
 Metric	Value
-Training Accuracy	~91%
-Test Accuracy	~91%
-Loss (last epoch)	~0.28
+Training Accuracy	~99%
+Test Accuracy	~93%
+Loss (last epoch)	~0.078
 
 Using VGG16 allowed the model to leverage rich feature representations learned from ImageNet, improving accuracy compared to training from scratch.
 
